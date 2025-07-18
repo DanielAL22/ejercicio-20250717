@@ -1,0 +1,64 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno virtual
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+*.env
+
+# Archivos de configuración personal
+*.log
+*.pot
+*.pyc
+
+# Configuración del editor (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos temporales
+*.swp
+*~
+*.bak
+
+# Archivos de pruebas
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Archivos de salida o paquetes
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos ocultos de pip y setuptools
+pip-wheel-metadata/
+*.manifest
+
+# Secretos / credenciales
+.env
+*.secret
+*.key
+*.pem
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Selenium / screenshots
+screenshots/
